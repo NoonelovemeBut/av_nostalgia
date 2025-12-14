@@ -31,3 +31,68 @@ button {
   padding: 20px;
   border-radius: 10px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #020617;
+}
+
+.logo {
+  font-weight: bold;
+  color: #6366f1;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #020617;
+}
+
+.logo {
+  font-weight: bold;
+  color: #6366f1;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.memory-form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.memory-form input,
+.memory-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.memory-form button {
+  background: #22c55e;
+  color: black;
+  font-weight: bold;
+}
+
+.note {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.7;
+}
